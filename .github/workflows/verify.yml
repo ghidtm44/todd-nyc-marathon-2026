@@ -2,6 +2,7 @@ name: Verify static spectator page
 on:
   push:
     branches: [main]
+    paths: ['index.html', 'style.css', 'assets/**', 'source/**', 'scripts/**', '.github/workflows/verify.yml']
   workflow_dispatch:
 permissions:
   contents: read

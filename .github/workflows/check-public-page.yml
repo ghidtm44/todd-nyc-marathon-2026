@@ -1,0 +1,37 @@
+name: Verify public GitHub Pages access
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/check-public-page.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-page:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check unauthenticated public content and static assets
+        run: |
+          python3 - <<'PY'
+          import hashlib, time, urllib.request
+          from pathlib import Path
+          base = 'https://ghidtm44.github.io/todd-nyc-marathon-2026/'
+          files = ['index.html', 'style.css', 'assets/course-1.png', 'assets/course-2.png', 'assets/course-3.png', 'source/official-course-2026.pdf']
+          for filename in files:
+              expected = Path(filename).read_bytes()
+              url = base + ('' if filename == 'index.html' else filename)
+              for attempt in range(12):
+                  try:
+                      with urllib.request.urlopen(url, timeout=20) as response:
+                          actual = response.read()
+                          assert response.status == 200
+                          assert actual == expected, 'Public bytes differ from verified source'
+                      print('PASS public HTTP 200; exact source bytes:', url, hashlib.sha256(actual).hexdigest())
+                      break
+                  except Exception:
+                      if attempt == 11: raise
+                      time.sleep(5)
+          print('PASS: public page and all referenced assets work without authentication.')
+          PY
