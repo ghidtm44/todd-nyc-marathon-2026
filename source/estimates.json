@@ -1,0 +1,198 @@
+{
+  "timezone": "America/New_York",
+  "start": "2026-11-01T10:55:00-05:00",
+  "first_mile_seconds": 562,
+  "remaining_mile_seconds": 530,
+  "distance_km": 42.195,
+  "estimates": [
+    {
+      "mile": 1,
+      "distance_miles": 1,
+      "elapsed_seconds": 562,
+      "arrival_local": "2026-11-01T11:04:22-05:00",
+      "display": "11:04 AM"
+    },
+    {
+      "mile": 2,
+      "distance_miles": 2,
+      "elapsed_seconds": 1092,
+      "arrival_local": "2026-11-01T11:13:12-05:00",
+      "display": "11:13 AM"
+    },
+    {
+      "mile": 3,
+      "distance_miles": 3,
+      "elapsed_seconds": 1622,
+      "arrival_local": "2026-11-01T11:22:02-05:00",
+      "display": "11:22 AM"
+    },
+    {
+      "mile": 4,
+      "distance_miles": 4,
+      "elapsed_seconds": 2152,
+      "arrival_local": "2026-11-01T11:30:52-05:00",
+      "display": "11:31 AM"
+    },
+    {
+      "mile": 5,
+      "distance_miles": 5,
+      "elapsed_seconds": 2682,
+      "arrival_local": "2026-11-01T11:39:42-05:00",
+      "display": "11:40 AM"
+    },
+    {
+      "mile": 6,
+      "distance_miles": 6,
+      "elapsed_seconds": 3212,
+      "arrival_local": "2026-11-01T11:48:32-05:00",
+      "display": "11:49 AM"
+    },
+    {
+      "mile": 7,
+      "distance_miles": 7,
+      "elapsed_seconds": 3742,
+      "arrival_local": "2026-11-01T11:57:22-05:00",
+      "display": "11:57 AM"
+    },
+    {
+      "mile": 8,
+      "distance_miles": 8,
+      "elapsed_seconds": 4272,
+      "arrival_local": "2026-11-01T12:06:12-05:00",
+      "display": "12:06 PM"
+    },
+    {
+      "mile": 9,
+      "distance_miles": 9,
+      "elapsed_seconds": 4802,
+      "arrival_local": "2026-11-01T12:15:02-05:00",
+      "display": "12:15 PM"
+    },
+    {
+      "mile": 10,
+      "distance_miles": 10,
+      "elapsed_seconds": 5332,
+      "arrival_local": "2026-11-01T12:23:52-05:00",
+      "display": "12:24 PM"
+    },
+    {
+      "mile": 11,
+      "distance_miles": 11,
+      "elapsed_seconds": 5862,
+      "arrival_local": "2026-11-01T12:32:42-05:00",
+      "display": "12:33 PM"
+    },
+    {
+      "mile": 12,
+      "distance_miles": 12,
+      "elapsed_seconds": 6392,
+      "arrival_local": "2026-11-01T12:41:32-05:00",
+      "display": "12:42 PM"
+    },
+    {
+      "mile": 13,
+      "distance_miles": 13,
+      "elapsed_seconds": 6922,
+      "arrival_local": "2026-11-01T12:50:22-05:00",
+      "display": "12:50 PM"
+    },
+    {
+      "mile": 14,
+      "distance_miles": 14,
+      "elapsed_seconds": 7452,
+      "arrival_local": "2026-11-01T12:59:12-05:00",
+      "display": "12:59 PM"
+    },
+    {
+      "mile": 15,
+      "distance_miles": 15,
+      "elapsed_seconds": 7982,
+      "arrival_local": "2026-11-01T13:08:02-05:00",
+      "display": "1:08 PM"
+    },
+    {
+      "mile": 16,
+      "distance_miles": 16,
+      "elapsed_seconds": 8512,
+      "arrival_local": "2026-11-01T13:16:52-05:00",
+      "display": "1:17 PM"
+    },
+    {
+      "mile": 17,
+      "distance_miles": 17,
+      "elapsed_seconds": 9042,
+      "arrival_local": "2026-11-01T13:25:42-05:00",
+      "display": "1:26 PM"
+    },
+    {
+      "mile": 18,
+      "distance_miles": 18,
+      "elapsed_seconds": 9572,
+      "arrival_local": "2026-11-01T13:34:32-05:00",
+      "display": "1:35 PM"
+    },
+    {
+      "mile": 19,
+      "distance_miles": 19,
+      "elapsed_seconds": 10102,
+      "arrival_local": "2026-11-01T13:43:22-05:00",
+      "display": "1:43 PM"
+    },
+    {
+      "mile": 20,
+      "distance_miles": 20,
+      "elapsed_seconds": 10632,
+      "arrival_local": "2026-11-01T13:52:12-05:00",
+      "display": "1:52 PM"
+    },
+    {
+      "mile": 21,
+      "distance_miles": 21,
+      "elapsed_seconds": 11162,
+      "arrival_local": "2026-11-01T14:01:02-05:00",
+      "display": "2:01 PM"
+    },
+    {
+      "mile": 22,
+      "distance_miles": 22,
+      "elapsed_seconds": 11692,
+      "arrival_local": "2026-11-01T14:09:52-05:00",
+      "display": "2:10 PM"
+    },
+    {
+      "mile": 23,
+      "distance_miles": 23,
+      "elapsed_seconds": 12222,
+      "arrival_local": "2026-11-01T14:18:42-05:00",
+      "display": "2:19 PM"
+    },
+    {
+      "mile": 24,
+      "distance_miles": 24,
+      "elapsed_seconds": 12752,
+      "arrival_local": "2026-11-01T14:27:32-05:00",
+      "display": "2:28 PM"
+    },
+    {
+      "mile": 25,
+      "distance_miles": 25,
+      "elapsed_seconds": 13282,
+      "arrival_local": "2026-11-01T14:36:22-05:00",
+      "display": "2:36 PM"
+    },
+    {
+      "mile": 26,
+      "distance_miles": 26,
+      "elapsed_seconds": 13812,
+      "arrival_local": "2026-11-01T14:45:12-05:00",
+      "display": "2:45 PM"
+    },
+    {
+      "mile": "finish",
+      "distance_miles": 26.218757456454306,
+      "elapsed_seconds": 13927.941,
+      "arrival_local": "2026-11-01T14:47:07.941452-05:00",
+      "display": "2:47 PM"
+    }
+  ]
+}
